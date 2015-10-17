@@ -1,0 +1,36 @@
+{
+  "name": "iso-alt",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "gulp",
+    "lint": "eslint app/**/*.js"
+  },
+  "dependencies": {
+    "alt": "^0.17.4",
+    "babel": "^5.8.23",
+    "body-parser": "^1.14.1",
+    "config": "^1.16.0",
+    "express": "^4.13.3",
+    "fetchr": "^0.5.20",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "routr": "^0.1.3",
+    "serialize-javascript": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^5.3.2",
+    "eslint": "^1.6.0",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sass": "^2.0.4",
+    "json-loader": "~0.5.3",
+    "node-sass": "^3.3.3",
+    "nodemon": "^1.7.1",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0",
+    "webpack-stream": "^2.1.1"
+  }
+}
