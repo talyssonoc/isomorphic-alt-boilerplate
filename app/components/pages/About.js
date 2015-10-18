@@ -30,16 +30,18 @@ class About extends React.Component {
   }
 
   render() {
+    const time = new Date(this.state.time).toLocaleString('en-US');
+
     return (
-    <div>
-      <b>This is the about page at { this.state.time }!</b>
-      <div>
-        <Link
-          route="index"
-        >
-          Home
-        </Link>
-      </div>
+    <div className="callout">
+      <h5>About</h5>
+      <p>This is the about page at <span className="label">{ time }</span>!</p>
+      <Link
+        route="index"
+        className="small button"
+      >
+        « Home
+      </Link>
     </div>);
   }
 }

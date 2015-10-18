@@ -4,7 +4,7 @@ class TimeService {
   }
 
   read(req, resource, params, config, callback) {
-    callback(null, Date.now());
+    callback(null, new Date());
   }
 }
 
